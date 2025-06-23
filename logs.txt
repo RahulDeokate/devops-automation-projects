@@ -1,0 +1,9 @@
+2025-06-23 20:09:00.845555 : failed to generate ticket 400
+{"errorMessages":[],"errors":{"project":"Specify a valid project ID or key"}}
+2025-06-23 20:13:32.086236 : failed to generate ticket 400
+{"errorMessages":[],"errors":{"project":"Specify a valid project ID or key"}}
+2025-06-23 20:18:49.918105 : failed to generate ticket 400
+{"errorMessages":[],"errors":{"project":"Specify a valid project ID or key"}}
+2025-06-23 20:22:25.698381 : failed to generate ticket 400
+{"errorMessages":[],"errors":{"description":"Operation value must be an Atlassian Document (see the Atlassian Document Format)"}}
+2025-06-23 20:26:03.136982 jira ticket created successfuly SCRUM-2
