@@ -50,10 +50,10 @@ responce=requests.post(JIRA_URL, json=issue_data, headers=headers, auth=auth)
 #handle responce
 if responce.status_code == 201 :
     issue_key=responce.json().get("key")
-    print(f"Ticket created successfuly : {issue_key}")
     with open("logs.txt", "a") as log :
-        log.write(f"{datetime.now()} jira ticket created successfuly {issue_key}\n")
-
+        log.write(f"{datetime.now()} : Jira ticket created successfuly {issue_key}\n")
+    print(f"Ticket created successfuly : {issue_key}")
+    
 else:
     print(f" Failed to create ticket : {responce.status_code}")
     print(responce.text)
