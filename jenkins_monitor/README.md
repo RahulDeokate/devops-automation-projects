@@ -10,7 +10,6 @@ To get the real-time build status of a Jenkins job and optionally log it for ana
 - Python
 - Jenkins REST API
 - `requests` and `dotenv`
-- Git & GitHub
 
 ## 🛠️ Features
 - Fetch last build status of any Jenkins job
